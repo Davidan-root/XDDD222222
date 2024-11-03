@@ -3,7 +3,7 @@ package com.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.demo", "Controllers", "Services", "dto", "Entities", "Repositoies"})
 public class ParcialMutanteDetectorApplication {
 
 	public static void main(String[] args) {
